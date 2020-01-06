@@ -1,0 +1,35 @@
+doctype html
+html
+  head
+    script src="/js/jquery-3.3.1.js"
+    link rel="stylesheet" type="text/css" href="css/main.css"
+    script type="text/javascript" charset="utf-8" src="/js/main.js"
+    link rel="icon" href="/img/logos/levas.ico" type="image/x-icon"
+    link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"
+
+    title Hugo Drakeskär
+  body
+    nav.topnav
+      h1#name
+        a href="/" Hugo.
+      #pages
+        a href="/cv" CV
+        a href="/projects" Projects
+        a href="/photos" Photos
+        a href="/contact" Contact
+      hr 
+
+    == yield
+
+    footer#mainFooter
+      .links
+        a href="https://www.linkedin.com/in/hugo-drakesk%C3%A4r-7b7792151/"
+          img src="img/logos/linkedin.png" alt="Hugo@LinkedIn"
+        a href="https://twitter.com/hugodrakeskar"
+          img src="img/logos/twitter.png" alt="hugodrakeskar@twitter"
+        a href="https://www.facebook.com/hugo.drakeskar"
+          img src="img/logos/facebook.png" alt="facebook"
+        a href="https://instagram.com/hugodrak"
+          img src="img/logos/instagram.png" alt="hugodrak@instagram"
+        a href="https://github.com/hugodrak"
+          img src="img/logos/github.png" alt="hugodrak@GitHub"

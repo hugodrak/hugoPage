@@ -1,0 +1,3 @@
+<div class="cv">
+  <iframe src="https://docs.google.com/document/d/e/2PACX-1vQ-E56T6Uboiw4AbPKtfw3i68OAwV9V0Jcxgnbm-h4WXKGG6335r62_70mJG66_QPhiAL-L2Rqlda9L/pub?embedded=true"></iframe>
+</div>
